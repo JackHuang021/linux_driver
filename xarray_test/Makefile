@@ -1,6 +1,6 @@
 KERNEL_DIR := /home/jack/Documents/phytium/e2000/linux-kernel
 CURRENT_PATH := $(shell pwd)
-obj-m := test.o
+obj-m := xarray_test.o
 
 build: kernel_modules
 
